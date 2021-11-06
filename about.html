@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- Bootstrap v4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Css Style -->
+    <link rel="stylesheet" href="project1.css">
+
+    <script>
+      // navigation script
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      // popover in image
+      $(function () {
+       $('[data-toggle="popover"]').popover()
+      })
+      </script>
+</head>
+<body>
+    <header id="home">
+      <div class="logo">
+          <img src="imgs/logo5.jpg" alt="logo">
+      </div>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="project1.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="recipe.html">Recipes</a>
+        <a href="tips.html">Baking Tips</a>
+        <a href="terms.html">Baking Terms</a>
+        <a href="comment.html">Comments</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      </div>
+      <div class="about-page" id="about">
+        <div class="about-box">
+          <img src="imgs/sally.jpg" alt="Sally" type="button" data-toggle="popover" title="Hi! I am Sally." data-placement="bottom" data-content="Welcome to my kitchen!">
+          <div class="about-info" id="borderimg">
+            <p>Welcome to my kitchen! My name is Sally. I’m a mother, baker, blogger, author, and food photographer. I live in Maryland with my family and our loveable dog, Franklin.</p>
+            <p> a young girl, I spent hours watching my mother and grandmother work their baking magic in the kitchen, especially their pecan pie and soda bread. Is there anything better than the smell of fresh homemade bread in the house? By the time I picked up my first mixing spoon, I was hooked.</p>
+            <p>I started Sally’s Baking Addiction in 2011 as a personal blog. It was just an easy way to share my baking recipes with friends and family. My small hobby blog quickly ignited a passion for food photography as well as a desire to teach others…not just what to bake, but how to bake.</p>
+            <p>As a self-taught baker myself, I’m fiercely dedicated to providing well-tested recipes and sharing everything I’ve learned along the way. Before I post a new recipe, you can feel confident that I have already tested it dozens of times in my own kitchen. This is why Sally’s Baking Addiction has become a trusted resource for anyone who wants to bake from scratch. In addition to the hundreds of recipes on the site, you’ll also find helpful kitchen tips, lessons on baking basics, step-by-step photos, and video tutorials that will help you gain confidence and expertise in the kitchen.</p>
+            <p>Just a year and a half after launching my blog, I quit my full-time job to build Sally’s Baking Addiction into the business you see today. I’ve written, photographed, and published more than a thousand from-scratch recipes and wrote three cookbooks. My one-woman show grew into a talented and dedicated team including Stephanie, Hilari, Trina, and Lexi as well as our video experts, Stronz, Kristopher, Ashlynn, and David.</p>
+            <p>I’m so grateful this has been my path in life, and I truly hope Sally’s Baking Addiction will be your first stop when you need a recipe for any occasion. I’m thankful you’re here to join the baking adventure!</p>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>

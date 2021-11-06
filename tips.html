@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baking Tips</title>
+
+    <!-- Bootstrap v4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Css Style -->
+    <link rel="stylesheet" href="project1.css">
+    
+    <!-- script -->
+    <script>
+        // navigation script
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";}
+        }
+    </script>
+</head>
+<body>
+    <header id="home">
+        <div class="logo">
+            <img src="imgs/logo5.jpg" alt="logo">
+        </div>
+    </header>
+        <div class="topnav" id="myTopnav">
+          <a href="project1.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="recipe.html">Recipes</a>
+          <a href="tips.html">Baking Tips</a>
+          <a href="terms.html">Baking Terms</a>
+          <a href="comment.html">Comments</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+    <main>
+        <div class="tips">
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip1" aria-expanded="false" class="bakingtip btn" >Always Have the Correct Butter Consistency
+                </h1>
+                <div id="tip1" class="collapse t1">
+                    <p>Butter is the starting point for an immense amount of baked goods, so it’s important to have it prepped as the recipe suggests. The temperature of butter can dramatically affect the texture of baked goods. There are three different consistencies of butter that baking recipes typically call for: softened, chilled (or frozen like in scones), and melted
+                    </p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip2" aria-expanded="false" class="bakingtip btn" >Room Temperature is KEY
+                </h1>
+                <div id="tip2" class="collapse t1">
+                    <p>Speaking of temperature, if a recipe calls for room temperature eggs or any dairy ingredients such as milk or yogurt, make sure you follow suit. Recipes don’t just do that for fun– room temperature ingredients emulsify much easier into batter, which creates a uniform texture throughout your baked good. Think of cold, hard butter. It’s impossible to cream cold butter into a soft consistency necessary for some recipes. Same goes for eggs– they add much more volume to the batter when they’re at room temperature.
+                    </p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip3" aria-expanded="false" class="bakingtip btn" >Read the Recipe Before Beginning
+                </h1>
+                <div id="tip3" class="collapse t1">
+                    <p>I feel silly typing this, but I can’t tell you how many times I’ve had a complete recipe disaster because I didn’t realize a certain step was coming up. Reading ahead will help you know the how, why, where, and when of what you are about to do. It will take you 1-5 minutes and could save you from wasting your ingredients (and money!) on a failed recipe.
+                    </p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip4" aria-expanded="false" class="bakingtip btn">Always Have Ingredients Prepped</h1>
+                <div id="tip4" class="collapse t1">
+                    <p>Measure your ingredients before starting a recipe. Read through the ingredients, then get them prepared on your counter. There’s very little room for error when you begin recipes this way; you’re not scrambling and rushing during the recipe process.</p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip5" aria-expanded="false" class="bakingtip btn" >Learn How to Measure</h1>
+                <div id="tip5" class="collapse t1">
+                    <p>This is actually one of the most important baking tips on this page. As you know, baking is science. Excellent baking requires precise ratios, proven techniques, and well-tested recipes. Unlike cooking, you can’t just bake something by throwing some ingredients together, mess it up, then eat it anyway. (Well, most of the time you can’t!)
+                    </p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip6" aria-expanded="false" class="bakingtip btn" >Weigh Your Ingredients</h1>
+                <div id="tip6" class="collapse t1">
+                    <p>A small kitchen scale is priceless! It is, by far, the most used tool in my kitchen. A gram or ounce is always a gram or an ounce, but a cup isn’t always a cup. This is why I offer gram measurements with my recipes. Again, precision is everything.
+                    </p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip7" aria-expanded="false" class="bakingtip btn">Get an Oven Thermometer</h1>
+                <div id="tip7" class="collapse t1">
+                    <p>I use my ovens so much that the temperatures are sometimes off. Yes, the actual oven temperature can be much higher or lower than what the controller says. I’ve worked with 6 different sets of ovens in the past 10 years (all different brands) and after a period of time, each have been slightly off.
+                    </p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip8" aria-expanded="false" class="bakingtip btn">Keep Your Oven Door Closed
+                </h1>
+                <div id="tip8" class="collapse t1">
+                    <p>You now know how the oven’s temperature can ruin a recipe. But what can completely throw off the oven temperature is constantly opening and closing the oven door to peek inside. I know you’re excited about what’s baking! It’s so tempting to keep the oven ajar to see your cake rising, cookies baking, and cupcakes puffing up. But doing so can let cool air in, which interrupts the baked good from cooking and/or rising properly
+                    </p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip9" aria-expanded="false" class="bakingtip btn">Chill Your Cookie Dough</h1>
+                <div id="tip9" class="collapse t1">
+                    <p>Chilling cookie dough in the refrigerator firms it up, decreasing the possibility of over-spreading. Chilling cookie dough not only ensures a thicker, more solid cookie but an enhanced flavor as well. Not only this, cold cookie dough is much easier to handle and shape. In soft chocolate chip cookies, for example, it helps develops a heightened buttery, caramel-y flavor. After chilling, let your cookie dough sit at room temperature for about 10 minutes (or more, depending how long the dough has chilled) before rolling into balls and baking. Sometimes after refrigeration, cookie dough can be too hard to roll/handle.
+                    </p>
+                </div>
+            </div>
+            <div class="tipbox">
+                <h1 type="button" data-toggle="collapse" data-target="#tip10" aria-expanded="false" class="bakingtip btn">Here is my Cookie Trick</h1>
+                <div id="tip10" class="collapse t1">
+                    <p>Last baking tip and it’s all about cookies. To keep leftover cookies extra soft, store them with a piece of bread. Have you heard of this before? If storing cookies in a container or cookie jar, stick a regular piece of bread in there as well. The cookies will absorb all of the bread’s moisture, leaving the bread hard and the cookies extra soft. And they’ll stay soft FOR DAYS!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="videobox">
+            <div class="video1">
+                <h5>Baking Hacks</h5>
+                <iframe width="250" height="250" src="https://www.youtube.com/embed/Y0_76Mg1KY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video2">
+                <h5>Measuring Ingredients</h5>
+                <iframe width="250" height="250" src="https://www.youtube.com/embed/Ohswpt6fhh4?list=RDCMUCXSCbnLpg23d7WU5bIOAsBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video3">
+                <h5>Measuring Ingredients</h5>
+                <iframe width="250" height="250" src="https://www.youtube.com/embed/c9cGYWoh8to" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
